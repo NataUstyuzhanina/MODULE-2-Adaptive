@@ -3,7 +3,7 @@
 @import "/styles/servises.css";
 @import "/styles/contacts.css";
 @import "/styles/footer.css";
-@import "/styles/intro.css";
+@import "../styles/intro.css";
 @import "/styles/gallery.css";
 @import "/styles/about-us.css";
 
