@@ -1,0 +1,23 @@
+.gallery {
+  min-width: 100%;
+  background-image: url(../resources/bedroom.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  height: 717px;
+}
+.gallery-center {
+  margin: 0 auto;
+  width: 1275px;
+  position: relative;
+}
+.gallery__text {
+  position: absolute;
+  top: 575px;
+  height: 82px;
+
+  width: 443px;
+  font-size: 30px;
+  line-height: 41px;
+  color: #ffffff;
+}

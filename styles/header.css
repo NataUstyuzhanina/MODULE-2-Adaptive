@@ -1,0 +1,30 @@
+.nav-container {
+  margin: 0 auto;
+  height: 26px;
+  width: 1151px;
+  margin-top: 33px;
+  margin-bottom: 70px;
+}
+.logo-link {
+  display: inline-block;
+}
+.logo {
+  display: block;
+  padding-right: 80px;
+}
+nav {
+  float: right;
+}
+.nav__link {
+  margin-left: 58px;
+  font-size: 18px;
+  line-height: 25px;
+  color: #121212;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.nav__link:hover {
+  border-bottom: 1px solid #121212;
+  padding-bottom: 2px;
+  opacity: 0.5;
+}

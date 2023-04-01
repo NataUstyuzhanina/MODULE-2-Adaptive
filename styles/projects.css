@@ -1,0 +1,26 @@
+.project__image {
+  margin-bottom: 14px;
+  height: 450px;
+}
+.project__title {
+  margin-bottom: 13px;
+  font-size: 30px;
+  line-height: 41px;
+}
+
+.project__btn-more {
+  margin-bottom: 91px;
+  display: block;
+  height: 27px;
+  width: 127px;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: -0.03em;
+  color: #ad1818;
+  text-decoration: none;
+}
+@media (max-width: 1199px) {
+  .intro__text {
+    width: 802px;
+  }
+}

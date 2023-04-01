@@ -1,0 +1,26 @@
+footer {
+  min-width: 1400px;
+  padding: 60px 0 30px 0;
+  height: 229px;
+  background: #121212;
+}
+.footer__title {
+  padding-top: 87px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 27px;
+  opacity: 0.5;
+}
+.footer-nav {
+  margin: 0 auto;
+  width: 460px;
+  float: none;
+}
+footer .nav__link {
+  margin-left: 53px;
+  color: #ffffff;
+}
+footer .nav__link:first-child {
+  margin-left: 0;
+}
