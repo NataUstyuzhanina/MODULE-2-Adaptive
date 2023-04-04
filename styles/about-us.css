@@ -28,6 +28,9 @@
     font-size: 35px;
     line-height: 48px;
   }
+  .about-us__button {
+    margin-bottom: 120px;
+  }
 }
 
 @media (max-width: 767px) {

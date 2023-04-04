@@ -20,7 +20,39 @@
   text-decoration: none;
 }
 @media (max-width: 1199px) {
-  .intro__text {
-    width: 802px;
+  .project__image {
+    width: 100%;
+    object-fit: cover;
+  }
+  .project__title {
+    font-size: 25px;
+    line-height: 34px;
+    margin-bottom: 9px;
+  }
+  .project__btn-more {
+    margin-bottom: 80px;
+  }
+  .project:last-of-type {
+    margin-bottom: 99px;
+  }
+}
+
+@media (max-width: 768px) {
+  .project__image {
+    margin-bottom: 18px;
+    height: 250px;
+  }
+  .project__title {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 11px;
+  }
+  .project__btn-more {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 44px;
+  }
+  .project:last-of-type {
+    margin-bottom: 54px;
   }
 }
