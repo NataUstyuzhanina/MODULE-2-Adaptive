@@ -43,6 +43,9 @@
   color: #ffffff;
 }
 @media (max-width: 1199px) {
+  .section-black h2 {
+    padding-top: 120px;
+  }
   .service-list {
     row-gap: 80px;
   }
