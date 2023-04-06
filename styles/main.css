@@ -6,14 +6,13 @@
 @import "../styles/intro.css";
 @import "../styles/gallery.css";
 @import "../styles/about-us.css";
+@import "../styles/buttons.css";
+@import "../styles/reviews.css";
 
 html {
   scroll-behavior: smooth;
 }
 body {
-  /* margin: 0 auto;
-  min-width: 1400px; */
-  /* width: 100%; */
   font-family: "Manrope", sans-serif;
   font-weight: 400;
   background: #ffffff;
@@ -27,65 +26,32 @@ nav,
 a {
   letter-spacing: -0.03em;
 }
-.container {
+section {
   margin: 0 auto;
   width: 1150px;
+  padding-bottom: 150px;
 }
 
 h2 {
   margin-bottom: 30px;
-  height: 25px;
   font-size: 18px;
   line-height: 24.59px;
 }
 
-.full-width-btn {
-  margin-bottom: 150px;
-  display: block;
-  height: 153px;
-  width: 1150px;
-  border-radius: 5px;
-  border: 1px solid #ad1818;
-  font-size: 30px;
-  line-height: 153px;
-  text-align: center;
-  text-decoration: none;
-  color: #ad1818;
-}
-.full-width-btn:hover {
-  color: #ffffff;
-  background-color: #ad1818;
-}
-
 @media (max-width: 1199px) {
-  .container {
+  section {
     width: 100%;
-    padding-left: 17px;
-    padding-right: 15px;
-  }
-
-  .full-width-btn {
-    margin-bottom: 103px;
-    width: 100%;
+    padding: 0 15px 120px 17px;
   }
 }
 
 @media (max-width: 767px) {
-  .container {
-    padding-left: 15px;
-    padding-right: 12px;
+  section {
+    padding: 0 12px 80px 13px;
   }
-
   h2 {
     margin-bottom: 20px;
-    height: 19px;
     font-size: 14px;
     line-height: 19px;
-  }
-  .full-width-btn {
-    margin-bottom: 144px;
-    font-size: 22px;
-    line-height: 100px;
-    height: 100px;
   }
 }

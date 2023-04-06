@@ -8,7 +8,6 @@
 }
 
 .about-us__button {
-  margin-bottom: 150px;
   padding: 20px 40px;
   display: block;
   width: 255px;
@@ -28,9 +27,6 @@
     font-size: 35px;
     line-height: 48px;
   }
-  .about-us__button {
-    margin-bottom: 120px;
-  }
 }
 
 @media (max-width: 767px) {
@@ -41,7 +37,6 @@
   }
 
   .about-us__button {
-    margin-bottom: 80px;
     padding: 14.5px 27px;
     width: 194px;
     height: 51px;
