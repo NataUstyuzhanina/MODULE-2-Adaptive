@@ -4,9 +4,6 @@
   /* margin-top: 171px; */
   margin-bottom: 30px;
   width: 956px;
-  font-size: 60px;
-  line-height: 60px;
-  color: rgba(18, 18, 18, 1);
 }
 
 .intro-image {
@@ -30,8 +27,6 @@
 @media (max-width: 1199px) {
   .intro__text {
     width: 802px;
-    font-size: 50px;
-    line-height: 60px;
   }
   .intro-image {
     width: 100%;
@@ -49,17 +44,11 @@
 @media (max-width: 802px) {
   .intro__text {
     width: 100%;
-    font-size: 45px;
-    line-height: 45px;
   }
 }
-
 @media (max-width: 767px) {
   .intro__text {
     width: 100%;
-    font-size: 30px;
-    line-height: 31.62px;
-    text-align: left;
   }
   .intro-image {
     width: 100%;

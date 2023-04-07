@@ -33,6 +33,12 @@ section {
   padding-bottom: 149px;
 }
 
+h1 {
+  font-size: 60px;
+  line-height: 60px;
+  color: rgba(18, 18, 18, 1);
+}
+
 h2 {
   margin-bottom: 30px;
   font-size: 18px;
@@ -44,11 +50,26 @@ h2 {
     width: 100%;
     padding: 0 15px 120px 17px;
   }
+  h1 {
+    font-size: 50px;
+    line-height: 60px;
+  }
 }
 
+@media (max-width: 802px) {
+  h1 {
+    font-size: 45px;
+    line-height: 45px;
+  }
+}
 @media (max-width: 767px) {
   section {
     padding: 0 12px 80px 13px;
+  }
+  h1 {
+    font-size: 30px;
+    line-height: 31.62px;
+    text-align: left;
   }
   h2 {
     margin-bottom: 20px;
