@@ -5,7 +5,7 @@
   border-radius: 5px;
   border: 1px solid #ad1818;
   font-size: 30px;
-  line-height: 153px;
+  line-height: 149px;
   text-align: center;
   text-decoration: none;
   color: #ad1818;
@@ -17,6 +17,7 @@
 }
 
 .full-width-btn_inverted {
+  margin-top: 102px;
   background-color: #ad1818;
   color: #ffffff;
 }
@@ -30,6 +31,9 @@
   .full-width-btn {
     width: 100%;
   }
+  .full-width-btn_inverted {
+    margin-top: 84px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -37,5 +41,8 @@
     font-size: 22px;
     line-height: 100px;
     height: 100px;
+  }
+  .full-width-btn_inverted {
+    margin-top: 70px;
   }
 }

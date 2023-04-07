@@ -12,7 +12,7 @@
   display: flex;
   flex-wrap: wrap;
   column-gap: 10px;
-  row-gap: 85px;
+  row-gap: 86px;
 }
 
 .service {
@@ -24,7 +24,7 @@
 }
 
 .service__name {
-  margin-top: 25px;
+  margin-top: 20px;
   padding-left: 4px;
   font-size: 30px;
   line-height: 41px;
@@ -34,7 +34,7 @@
   position: absolute;
   top: 31px;
   left: 30px;
-  padding: 5px 20px;
+  padding: 0px 20px;
   font-size: 22px;
   line-height: 40px;
   text-align: center;
@@ -43,11 +43,8 @@
   color: #ffffff;
 }
 @media (max-width: 1199px) {
-  .section-black h2 {
-    padding-top: 120px;
-  }
   .service-list {
-    row-gap: 80px;
+    row-gap: 85px;
   }
 
   .service__name {
@@ -66,10 +63,10 @@
   }
   .service-list {
     flex-direction: column;
-    row-gap: 60px;
+    row-gap: 66px;
   }
   .service__name {
-    margin-top: 10px;
+    margin-top: 8px;
     font-size: 18px;
     line-height: 25px;
   }
