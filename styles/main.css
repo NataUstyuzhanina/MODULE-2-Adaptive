@@ -27,7 +27,8 @@ nav,
 a {
   letter-spacing: -0.03em;
 }
-section {
+
+.content-wrapper {
   margin: 0 auto;
   width: 1150px;
   padding-bottom: 149px;
@@ -40,13 +41,12 @@ h1 {
 }
 
 h2 {
-  margin-bottom: 30px;
   font-size: 18px;
   line-height: 24.59px;
 }
 
 @media (max-width: 1199px) {
-  section {
+  .content-wrapper {
     width: 100%;
     padding: 0 15px 120px 17px;
   }
@@ -63,7 +63,7 @@ h2 {
   }
 }
 @media (max-width: 767px) {
-  section {
+  .content-wrapper {
     padding: 0 12px 80px 13px;
   }
   h1 {
@@ -72,7 +72,6 @@ h2 {
     text-align: left;
   }
   h2 {
-    margin-bottom: 20px;
     font-size: 14px;
     line-height: 19px;
   }

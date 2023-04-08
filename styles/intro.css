@@ -72,3 +72,8 @@
     background-image: url(../resources/intro/armchair_mobile.png);
   }
 }
+@media (max-width: 376px) {
+  .intro__text {
+    width: 95%;
+  }
+}
