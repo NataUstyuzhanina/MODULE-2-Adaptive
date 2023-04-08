@@ -16,7 +16,7 @@ nav {
   float: right;
 }
 .nav__link {
-  margin-left: 58px;
+  /* margin-left: 58px; */
   font-size: 18px;
   line-height: 25px;
   color: #121212;
