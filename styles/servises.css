@@ -54,6 +54,7 @@
   }
   .service__image {
     width: 100%;
+    object-fit: cover;
   }
 }
 @media (max-width: 767px) {
@@ -72,6 +73,9 @@
   }
   .service {
     width: 100%;
+  }
+  .service__image {
+    height: 240px;
   }
   .service__price {
     top: 23px;
