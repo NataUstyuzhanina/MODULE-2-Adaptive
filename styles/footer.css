@@ -31,7 +31,7 @@ footer .nav__link:first-child {
   footer {
     padding: 30px 47px 26px 47px;
   }
-  .nav__link {
+  footer .nav__link {
     font-size: 12px;
     line-height: 16px;
   }
