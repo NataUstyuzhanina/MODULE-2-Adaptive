@@ -26,3 +26,21 @@ footer .nav__link {
 footer .nav__link:first-child {
   margin-left: 0;
 }
+
+@media (max-width: 767px) {
+  footer {
+    padding: 30px 47px 26px 47px;
+  }
+  .nav__link {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .footer-nav {
+    width: 281px;
+  }
+  .footer__title {
+    padding-top: 41px;
+    font-size: 13px;
+    line-height: 17.76px;
+  }
+}

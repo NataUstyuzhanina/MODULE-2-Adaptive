@@ -3,11 +3,12 @@
   display: flex;
   column-gap: 104px;
 }
-.contacts h2 {
+/* .contacts h2 {
+  margin-top: 150px;
   padding-bottom: 32px;
   width: 90px;
   height: 25px;
-}
+} */
 
 .phone {
   color: #121212;

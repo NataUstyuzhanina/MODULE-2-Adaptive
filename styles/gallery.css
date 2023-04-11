@@ -1,4 +1,5 @@
 .gallery {
+  margin-bottom: 150px;
   min-width: 100%;
   background-image: url(../resources/bedroom.png);
   background-size: cover;
