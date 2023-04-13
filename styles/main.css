@@ -22,7 +22,8 @@ body {
   overflow: hidden;
 }
 
-button {
+button,
+input {
   font-family: "Manrope", sans-serif;
   cursor: pointer;
 }

@@ -33,6 +33,7 @@
 }
 .popup__subtitle {
   margin-top: 4px;
+  margin-bottom: 10px;
   font-size: 18px;
   line-height: 24.59px;
   text-align: center;
@@ -50,7 +51,22 @@
   background-position: center;
   background-color: #ffffff;
 }
+.input {
+  box-sizing: border-box;
+  margin-top: 50px;
+  display: block;
+  width: 100%;
+  font-size: 25px;
+  line-height: 34.15px;
+  color: #000000;
+  opacity: 0.5;
+  border: none;
+  border-bottom: 1px solid #000000;
+}
 
+input:focus {
+  outline: none;
+}
 @media (max-width: 767px) {
   .popup {
     padding: 0 7px;
@@ -73,5 +89,10 @@
     width: 30px;
     height: 30px;
     background-image: url(../resources/Vector-cross_mobile.png);
+  }
+  .input {
+    margin-top: 40px;
+    font-size: 18px;
+    line-height: 24.59px;
   }
 }
