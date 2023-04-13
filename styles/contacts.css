@@ -66,28 +66,30 @@
   }
   .phone {
     width: 100%;
+    /* min-width: 370px; */
     font-size: 45px;
     line-height: 60px;
   }
   .mail {
     width: 100%;
+    /* max-width: 370px; */
     font-size: 45px;
     line-height: 60px;
   }
 }
 
-@media (max-width: 865px) {
+@media (max-width: 830px) {
   .contacts-wrapper {
     flex-direction: column;
     row-gap: 23px;
   }
   .phone {
-    width: 100%;
+    /* width: 100%; */
     font-size: 35px;
     line-height: 45px;
   }
   .mail {
-    width: 100%;
+    /* width: 100%; */
     font-size: 35px;
     line-height: 45px;
   }

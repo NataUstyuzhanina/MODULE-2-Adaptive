@@ -27,6 +27,12 @@
   border: #ffffff;
   color: #ad1818;
 }
+.full-width-btn_mini {
+  width: 100%;
+  height: 67px;
+  font-size: 20px;
+  line-height: 67px;
+}
 
 @media (max-width: 1199px) {
   .full-width-btn {
@@ -45,5 +51,9 @@
   }
   .full-width-btn_inverted {
     margin-top: 56px;
+  }
+  .full-width-btn_mini {
+    height: 67px;
+    line-height: 67px;
   }
 }
