@@ -16,9 +16,9 @@ footer {
   opacity: 0.5;
 }
 .footer-nav {
-  width: 460px;
   display: flex;
   justify-content: space-between;
+  gap: 55px;
 }
 footer .nav__link {
   color: #ffffff;

@@ -4,13 +4,13 @@
 }
 .gallery {
   position: relative;
-  margin-bottom: 150px;
+  margin-bottom: 151px;
 }
 .gallery__title-wrapper {
   position: absolute;
   z-index: 100;
   width: 100%;
-  top: 67px;
+  top: 68px;
 }
 .gallery__title {
   left: 124px;
@@ -131,11 +131,7 @@
   .gallery__controls-wrapper {
     bottom: 191px;
   }
-  /* .gallery__control-next,
-  .gallery__control-prev {
-     height: 15px;
-    width: 25px; 
-  }*/
+
   .gallery__text {
     font-size: 19px;
     line-height: 26px;

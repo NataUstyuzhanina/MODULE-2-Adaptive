@@ -13,7 +13,8 @@
 html {
   scroll-behavior: smooth;
 }
-body {
+body,
+header {
   font-family: "Manrope", sans-serif;
   font-weight: 400;
   background: #ffffff;

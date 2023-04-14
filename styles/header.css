@@ -1,22 +1,28 @@
-.nav-container {
+.container {
   margin: 0 auto;
-  height: 26px;
-  width: 1151px;
+  width: 1150px;
+}
+.header-inner {
+  display: flex;
   margin-top: 33px;
   margin-bottom: 70px;
+  justify-content: space-between;
+  align-items: center;
 }
 .logo-link {
-  display: inline-block;
+  display: block;
+  height: 25px;
 }
 .logo {
   display: block;
   padding-right: 80px;
 }
 nav {
-  float: right;
+  display: flex;
+  gap: 60px;
 }
 .nav__link {
-  /* margin-left: 58px; */
+  display: block;
   font-size: 18px;
   line-height: 25px;
   color: #121212;
