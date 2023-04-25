@@ -31,13 +31,14 @@ footer .nav__link:first-child {
   footer {
     padding: 30px 47px 26px 47px;
   }
+  .footer-nav {
+    gap: 30px;
+  }
   footer .nav__link {
     font-size: 12px;
     line-height: 16px;
   }
-  .footer-nav {
-    width: 281px;
-  }
+
   .footer__title {
     padding-top: 41px;
     font-size: 13px;

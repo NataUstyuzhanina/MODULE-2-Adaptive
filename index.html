@@ -16,8 +16,8 @@
   </head>
 
   <body>
-     <header class="header">
-       <div class="container">
+    <header class="header">
+      <div class="nav-container">
         <div class="header-inner">
           <a class="logo-link" href="">
             <img
@@ -32,9 +32,15 @@
             <a class="nav__link" href="#service">УСЛУГИ</a>
             <a class="nav__link" href="#contacts">КОНТАКТЫ</a>
           </nav>
+          <div class="js-burger-btn burger-btn">X</div>
         </div>
-      </div> 
+        
+      </div>
     </header>
+
+    <div class="js-burger burger ">
+      <div class="js-burger__content burger__content"></div>
+    </div>
 
     <main>
       <section class="intro">
@@ -171,10 +177,7 @@
               <h3 class="service__name">Комплектация</h3>
             </li>
           </ul>
-          <button
-            href=""
-            class="js-btn full-width-btn full-width-btn_inverted"
-          >
+          <button href="" class="js-btn full-width-btn full-width-btn_inverted">
             Заказать услугу
           </button>
         </div>
@@ -188,9 +191,9 @@
           </p>
           <button class="js-popup__close-btn popup__close-btn"></button>
           <div class="input-wrapper">
-            <input class="input" type="text" placeholder="Имя">
-            <input class="input" type="text" placeholder="Электронная почта">
-            <input class="input" type="text" placeholder="Номер телефона">
+            <input class="input" type="text" placeholder="Имя" />
+            <input class="input" type="text" placeholder="Электронная почта" />
+            <input class="input" type="text" placeholder="Номер телефона" />
           </div>
           <button
             href=""
@@ -335,11 +338,13 @@
           <h2>КОНТАКТЫ</h2>
           <div class="contacts-wrapper">
             <a class="phone" href="tel:+79358954535">+7 935 895-45-35</a>
-            <a class="mail" href="mailto:hello@mail.com">mns087@yandex.ru</a>
+            <div class="contacts__mail">
+              <a class="mail" href="http://t.me/mns_087">@MNS_087</a>
+            </div>
           </div>
         </div>
       </section>
-    </main> 
+    </main>
 
     <footer>
       <div class="footer-inner">
@@ -354,5 +359,6 @@
     </footer>
     <script src="gallery.js"></script>
     <script src="popup.js"></script>
+    <script src="burger.js"></script>
   </body>
 </html>

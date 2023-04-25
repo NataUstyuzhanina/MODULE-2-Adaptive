@@ -1,7 +1,7 @@
 .contacts-wrapper {
   margin-top: 26px;
   display: flex;
-  column-gap: 104px;
+  column-gap: 114px;
 }
 
 .mail,
@@ -44,13 +44,9 @@
   }
   .contacts-wrapper {
     margin-top: 20px;
-    column-gap: 114px;
+    column-gap: 108px;
   }
-  .phone {
-    width: 100%;
-    font-size: 45px;
-    line-height: 60px;
-  }
+  .phone,
   .mail {
     width: 100%;
     font-size: 45px;
@@ -58,18 +54,13 @@
   }
 }
 
-@media (max-width: 830px) {
+@media (max-width: 767px) {
   .contacts-wrapper {
     flex-direction: column;
     row-gap: 23px;
   }
-  .phone {
-    /* width: 100%; */
-    font-size: 35px;
-    line-height: 45px;
-  }
+  .phone,
   .mail {
-    /* width: 100%; */
     font-size: 35px;
     line-height: 45px;
   }
