@@ -24,7 +24,7 @@
 
 .full-width-btn_inverted:hover {
   background-color: #ffffff;
-  border: #ffffff;
+  /* border: #ffffff; */
   color: #ad1818;
 }
 .full-width-btn_mini {

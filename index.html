@@ -32,7 +32,7 @@
             <a class="nav__link" href="#service">УСЛУГИ</a>
             <a class="nav__link" href="#contacts">КОНТАКТЫ</a>
           </nav>
-          <div class="js-burger-btn burger-btn">X</div>
+          <div class="js-burger-btn burger-btn"></div>
         </div>
         
       </div>
@@ -190,11 +190,11 @@
             Заполните форму, мы свяжемся с вами в течение суток
           </p>
           <button class="js-popup__close-btn popup__close-btn"></button>
-          <div class="input-wrapper">
-            <input class="input" type="text" placeholder="Имя" />
-            <input class="input" type="text" placeholder="Электронная почта" />
-            <input class="input" type="text" placeholder="Номер телефона" />
-          </div>
+          <form class="input-wrapper">
+            <input class="input" type="text" name="name" placeholder="Имя" />
+            <input class="input" type="email" name="email" placeholder="Электронная почта" />
+            <input class="input" type="tel" name="phone" placeholder="Номер телефона" />
+          </form>
           <button
             href=""
             class="full-width-btn full-width-btn_inverted full-width-btn_mini"
