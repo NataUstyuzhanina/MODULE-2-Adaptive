@@ -19,7 +19,7 @@
     <header class="header">
       <div class="nav-container">
         <div class="header-inner">
-          <a class="logo-link" href="">
+          <a class="logo-link" href="#">
             <img
               class="logo"
               src="resources/metrica-logo.png"
@@ -27,20 +27,36 @@
             />
           </a>
           <nav class="nav">
-            <a class="nav__link" href="#about-us">О НАС</a>
-            <a class="nav__link" href="#projects">ПРОЕКТЫ</a>
-            <a class="nav__link" href="#service">УСЛУГИ</a>
-            <a class="nav__link" href="#contacts">КОНТАКТЫ</a>
+            <ul class="nav-list">
+              <li><a class="nav__link" href="#about-us">О НАС</a></li>
+              <li><a class="nav__link" href="#projects">ПРОЕКТЫ</a></li>
+              <li><a class="nav__link" href="#service">УСЛУГИ</a></li>
+              <li><a class="nav__link" href="#contacts">КОНТАКТЫ</a></li>
+            </ul>
           </nav>
           <div class="js-burger-btn burger-btn"></div>
         </div>
-        
+      </div>
+      <div class="js-burger burger">
+        <div class="js-burger__content burger__content">
+          <nav class="burger-nav">
+            <a class="logo-link" href="">
+              <img
+                class="logo"
+                src="resources/metrica-logo.png"
+                alt="Метрика логотип"
+              />
+            </a>
+            <ul class="burger-nav-list">
+              <li><a class="burger-nav__link" href="#about-us">О НАС</a></li>
+              <li><a class="burger-nav__link" href="#projects">ПРОЕКТЫ</a></li>
+              <li><a class="burger-nav__link" href="#service">УСЛУГИ</a></li>
+              <li><a class="burger-nav__link" href="#contacts">КОНТАКТЫ</a></li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
-
-    <div class="js-burger burger ">
-      <div class="js-burger__content burger__content"></div>
-    </div>
 
     <main>
       <section class="intro">
@@ -192,8 +208,18 @@
           <button class="js-popup__close-btn popup__close-btn"></button>
           <form class="input-wrapper">
             <input class="input" type="text" name="name" placeholder="Имя" />
-            <input class="input" type="email" name="email" placeholder="Электронная почта" />
-            <input class="input" type="tel" name="phone" placeholder="Номер телефона" />
+            <input
+              class="input"
+              type="email"
+              name="email"
+              placeholder="Электронная почта"
+            />
+            <input
+              class="input"
+              type="tel"
+              name="phone"
+              placeholder="Номер телефона"
+            />
           </form>
           <button
             href=""
