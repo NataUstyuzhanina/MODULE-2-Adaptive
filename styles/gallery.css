@@ -89,6 +89,9 @@
     width: 100%;
     padding: 0 15px 0 17px;
   }
+  .gallery__controls-wrapper {
+    bottom: 155px;
+  }
   .gallery__title-wrapper {
     top: 80px;
   }
@@ -104,7 +107,7 @@
     line-height: 34.15px;
   }
   .gallery__text-wrapper {
-    bottom: 80px;
+    bottom: 65px;
   }
 }
 

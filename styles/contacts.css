@@ -8,7 +8,7 @@
 .phone {
   display: block;
   width: fit-content;
-  height: 107px;
+  height: 110px;
   font-size: 60px;
   line-height: 60px;
   text-decoration: none;
@@ -45,7 +45,7 @@
     padding-bottom: 80px;
   }
   .contacts-wrapper {
-    margin-top: 20px;
+    margin-top: 25px;
     column-gap: 108px;
   }
   .phone,
@@ -57,6 +57,7 @@
 
 @media (max-width: 767px) {
   .contacts-wrapper {
+    margin-top: 18px;
     flex-direction: column;
     row-gap: 23px;
   }

@@ -36,11 +36,11 @@ footer .nav__link:first-child {
   }
   footer .nav__link {
     font-size: 12px;
-    line-height: 16px;
+    line-height: 20px;
   }
 
   .footer__title {
-    padding-top: 30px;
+    padding-top: 33px;
     font-size: 13px;
     line-height: 17.76px;
   }
