@@ -8,11 +8,11 @@
   margin-bottom: 70px;
   justify-content: space-between;
 }
-.logo-link {
-  height: 26px;
-}
+
 .logo {
   display: block;
+  width: 127px;
+  height: 22px;
 }
 .nav-list {
   display: flex;
@@ -44,8 +44,7 @@
   height: 100%;
   display: flex;
   justify-content: end;
-  align-items: center;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.9);
   opacity: 0;
   visibility: hidden;
   transition: all 0.2s ease;
@@ -66,6 +65,10 @@
 }
 .burger_open .burger__content {
   transform: translateX(0);
+}
+.burger-logo {
+  width: 156px;
+  height: 26px;
 }
 .burger-nav {
   padding: 80px 0 90px 30px;
