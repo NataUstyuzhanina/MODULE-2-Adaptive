@@ -9,7 +9,7 @@
   justify-content: space-between;
 }
 .logo-link {
-  height: 25px;
+  height: 26px;
 }
 .logo {
   display: block;
@@ -46,12 +46,10 @@
   visibility: hidden;
   transition: all 0.2s ease;
 }
-
 .burger_open {
   opacity: 1;
   visibility: visible;
 }
-
 .burger__content {
   width: 274px;
   height: 100%;
@@ -66,7 +64,7 @@
   transform: translateX(0);
 }
 .burger-nav {
-  padding: 80px 0 0 30px;
+  padding: 80px 0 90px 30px;
 }
 .burger-nav-list {
   margin-top: 50px;
@@ -75,10 +73,11 @@
   gap: 20px;
 }
 .burger-nav__link {
-  height: 25px;
+  height: 34px;
   display: block;
-  font-size: 18px;
-  line-height: 25px;
+  width: fit-content;
+  font-size: 25px;
+  line-height: 34px;
   color: #121212;
   text-decoration: none;
   text-transform: uppercase;
@@ -87,6 +86,28 @@
   border-bottom: 1px solid #121212;
   padding-bottom: 2px;
   opacity: 0.5;
+}
+.burger__contacts {
+  margin-left: 30px;
+}
+.burger__contacts-title {
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+  opacity: 0.5;
+}
+.burger__contacts-phone {
+  font-size: 20px;
+  line-height: 45.62px;
+  color: #121212;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.burger__contacts-link {
+  font-size: 20px;
+  line-height: 20px;
+  color: #121212;
+  text-decoration: none;
 }
 
 @media (max-width: 1199px) {
@@ -100,7 +121,6 @@
   .burger-btn {
     display: block;
     position: relative;
-    z-index: 150;
     width: 50px;
     background-color: none;
     border: none;
@@ -119,11 +139,33 @@
     top: 6px;
     width: 31px;
   }
+  .burger-btn_open::after,
+  .burger-btn_open::before {
+    display: none;
+  }
+
+  .burger-btn_open {
+    z-index: 150;
+    right: 27px;
+    width: 21px;
+    height: 21px;
+    background-image: url(../resources/Vector-cross_mobile.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ffffff;
+  }
 }
 
 @media (max-width: 767px) {
   .nav-container {
     padding: 0 12px 0 13px;
+  }
+  .header-inner {
+    margin-bottom: 50px;
+  }
+  .logo {
+    width: 96px;
+    height: 16px;
   }
   .burger-btn {
     width: 38px;

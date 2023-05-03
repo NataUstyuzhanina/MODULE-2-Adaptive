@@ -38,7 +38,7 @@
         </div>
       </div>
       <div class="js-burger burger">
-        <div class="js-burger__content burger__content">
+        <div class=" burger__content">
           <nav class="burger-nav">
             <a class="logo-link" href="">
               <img
@@ -54,6 +54,15 @@
               <li><a class="burger-nav__link" href="#contacts">КОНТАКТЫ</a></li>
             </ul>
           </nav>
+          <div class="js-burger__content burger__contacts">
+            <div class="burger__contacts-title">для связи:</div>
+            <a class="burger__contacts-phone" href="tel:+79358954535"
+              >+7 935 895-45-35</a
+            >
+            <div class="burger__contacts-tg">
+              <a class="burger__contacts-link" target="_blank" href="http://t.me/mns_087">@MNS_087</a>
+            </div>
+          </div>
         </div>
       </div>
     </header>
@@ -197,38 +206,37 @@
             Заказать услугу
           </button>
         </div>
-      </section>
-
-      <div class="js-popup popup">
-        <div class="js-popup__content popup__content">
-          <p class="popup__title">Заказать услугу</p>
-          <p class="popup__subtitle">
-            Заполните форму, мы свяжемся с вами в течение суток
-          </p>
-          <button class="js-popup__close-btn popup__close-btn"></button>
-          <form class="input-wrapper">
-            <input class="input" type="text" name="name" placeholder="Имя" />
-            <input
-              class="input"
-              type="email"
-              name="email"
-              placeholder="Электронная почта"
-            />
-            <input
-              class="input"
-              type="tel"
-              name="phone"
-              placeholder="Номер телефона"
-            />
-          </form>
-          <button
-            href=""
-            class="full-width-btn full-width-btn_inverted full-width-btn_mini"
-          >
-            Отправить
-          </button>
+        <div class="js-popup popup">
+          <div class="js-popup__content popup__content">
+            <p class="popup__title">Заказать услугу</p>
+            <p class="popup__subtitle">
+              Заполните форму, мы свяжемся с вами в течение суток
+            </p>
+            <button class="js-popup__close-btn popup__close-btn"></button>
+            <form class="input-wrapper">
+              <input class="input" type="text" name="name" placeholder="Имя" />
+              <input
+                class="input"
+                type="email"
+                name="email"
+                placeholder="Электронная почта"
+              />
+              <input
+                class="input"
+                type="tel"
+                name="phone"
+                placeholder="Номер телефона"
+              />
+            </form>
+            <button
+              href=""
+              class="full-width-btn full-width-btn_inverted full-width-btn_mini"
+            >
+              Отправить
+            </button>
+          </div>
         </div>
-      </div>
+      </section>
 
       <section class="reviews">
         <div class="content-wrapper">
@@ -365,7 +373,7 @@
           <div class="contacts-wrapper">
             <a class="phone" href="tel:+79358954535">+7 935 895-45-35</a>
             <div class="contacts__mail">
-              <a class="mail" href="http://t.me/mns_087">@MNS_087</a>
+              <a class="mail" target="_blank" href="http://t.me/mns_087">@MNS_087</a>
             </div>
           </div>
         </div>

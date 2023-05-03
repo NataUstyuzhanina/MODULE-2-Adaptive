@@ -4,7 +4,7 @@
 }
 .gallery {
   position: relative;
-  margin-bottom: 151px;
+  margin-bottom: 153px;
 }
 .gallery__title-wrapper {
   position: absolute;
@@ -119,6 +119,7 @@
     justify-content: space-between;
     gap: 0;
   }
+
   .gallery__title-wrapper {
     top: 61px;
   }
@@ -134,6 +135,7 @@
   }
 
   .gallery__text {
+    height: 52px;
     font-size: 19px;
     line-height: 26px;
   }
